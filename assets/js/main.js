@@ -5,3 +5,7 @@ function rangeSlider(value) {
 	document.getElementById('fillRangeBottomLeft').style.height = +value/2+'%';
 	document.getElementById('fillRangeBottomRight').style.width = +value/2+'%';
 }
+
+function alertOf () {
+	alert('Use the scroller to watch magic')
+}
